@@ -1,0 +1,89 @@
+* {
+    margin:0;
+}
+
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+
+}
+h1, h2, h3, .price {
+    font-weight: bold;
+}
+
+p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+header {
+    background-image: url('../img/pattern.jpg');
+    background-size: 225%;
+    width:100%;
+    margin:0;
+}
+
+h1 {
+    font-size: 100px;
+    color: khaki;
+    text-align: center;
+    padding:20px 0px;
+}
+
+h2 {
+    font-size: 32px;
+    color:white;
+    padding:5px;
+}
+
+h3 {
+    font-size:21px;
+    margin:5px 0px;
+}
+
+.price {
+    color:rgb(3, 75, 209);
+    margin:5px 0px;
+}
+
+img {
+    margin:5px 0px;
+}
+
+#brushes, #frames, #paint {
+    margin:40px auto;
+    width:75%;
+    padding:5px;
+    border:2px solid;
+}
+
+#brushes {
+    border-color: mediumspringgreen;
+}
+
+#brushesH2 {
+    background-color: mediumspringgreen;
+}
+
+#frames {
+    border-color: lightcoral;
+}
+
+#framesH2 {
+    background-color: lightcoral;
+}
+
+#paint {
+    border-color: skyblue;
+}
+
+#paintH2 {
+    background-color: skyblue;
+}
+
+footer {
+    width:100%;
+    text-align:center;
+    padding:5% 0px;
+    background-color: rgb(255, 223, 180);
+
+}
