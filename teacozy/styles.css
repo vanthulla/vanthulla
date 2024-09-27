@@ -55,6 +55,22 @@ nav li a {
   text-align: right;
 }
 
+
+/*UP BUTTON*/
+#up_button {
+  width:60px;
+  height:60px;
+  border-radius: 30px;
+  text-align: center;
+  position: fixed;
+  background-color: seashell;
+  color:black;
+  bottom: 100px;
+  right:10%;
+  z-index: 9;
+}
+
+
 /*MAIN*/
 main {
   position: relative;
