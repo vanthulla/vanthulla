@@ -83,7 +83,7 @@ main {
 
 /*HERO*/
 #mission {
-  height: 700px;
+  min-height: 700px;
   max-width: 1200px;
   margin: 15px 0;
   background-image: url(img/img-mission-background.jpg);
@@ -100,7 +100,7 @@ main {
 
 #mission_label {
   background-color: black;
-  width: auto;
+  max-width: 1200px;
   padding: 0 20px;
   position: relative;
 }
@@ -157,6 +157,7 @@ main {
 }
 
 #locations_content {
+  max-width:1200px;
   position:relative;
   display: inline-flex;
   flex-flow: row wrap;
@@ -169,7 +170,7 @@ main {
 
 .location {
   width: 300px;
-  margin: 5px 50px 10px 50px;
+  margin: 5px 20px 10px 20px;
   padding:20px 0 40px 0;
   background-color: black;
 }
